@@ -151,6 +151,32 @@ function top(){
 }
 
 ############################################## < START > ##############################################
+# Make sure we have installed all the needed packages
+    apt-get install fuser
+    apt-get install strings
+    apt-get install rfkill
+    apt-get install openssl
+    apt-get install python
+    apt-get install pyrit
+    apt-get install php-cgi
+    apt-get install nmap
+    apt-get install mdk3
+    apt-get install macchanger
+    apt-get install lighttpd
+    apt-get install iwconfig
+    apt-get install hostapd
+    apt-get install isc-dhcp-server
+    apt-get install curl
+    apt-get install awk
+    apt-get install airodump-ng
+    apt-get install airmon-ng
+    apt-get install aireplay-ng
+    apt-get install aircrack-ng
+    apt-get install mdk3
+    apt-get install cowpatty
+    apt-get install dhcpd
+    apt-get install 7zr
+    apt-get install xterm
 
 # Check requirements
 function checkdependences {
